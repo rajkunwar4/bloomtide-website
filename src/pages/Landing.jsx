@@ -130,7 +130,7 @@ const Landing = () => {
     <div className="w-full flex flex-col items-center mx-auto overflow-hidden">
       {/* <-------------Hero Section-------------> */}
       <section className="w-full flex justify-center font-PlusJakartaSans">
-        <div className="p-10  md:py-[70px] lg:pt-[120px] lg:pb-[0px] flex flex-col gap-10 lg:gap-12 items-center justify-center w-full max-w-[1290px]">
+        <div className="p-10  md:py-[70px] lg:pt-[100px] lg:pb-10   flex flex-col gap-10 lg:gap-12 items-center justify-center w-full max-w-[1290px]">
           {/* 1. Text Content */}
           <div className="flex flex-col gap-6 items-center justify-center">
             {/* Heading and Subheading */}

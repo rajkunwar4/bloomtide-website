@@ -1,6 +1,8 @@
+import mainLogo from "./mainLogo.svg";
 import stars from "./stars.svg";
 import buttonArrow from "./buttonArrow.svg";
 import buttonArrow2 from "./buttonArrow2.svg";
+import hamburger from "./hamburger.svg";
 
 import miniLogo from "./miniLogo.svg";
 import statsLogo1 from "./statsLogo1.svg";
@@ -62,4 +64,6 @@ export {
   tech8,
   tech9,
   tech10,
+  mainLogo,
+  hamburger
 };
