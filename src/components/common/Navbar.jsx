@@ -30,14 +30,6 @@ function Navbar() {
         className="flex flex-row justify-center items-center gap-[5.64px]"
       >
         <img src={mainLogo} alt="" />
-        <div className="flex flex-col gap-[4.4px] justify-center h-[21.4px]">
-          <p className="text-center font-MontserratAlternates text-[16.947px] font-semibold leading-normal bg-gradient-to-b from-[#3C9CE8] via-[#27AAE1] to-[#08BFF7] text-transparent bg-clip-text">
-            bloomtide
-          </p>
-          <p className="text-center font-MontserratAlternates text-[6.917px] font-normal tracking-[5.672px] bg-gradient-to-b from-[#3C9CE8] via-[#27AAE1] to-[#08BFF7] inline-block text-transparent bg-clip-text">
-            consulting
-          </p>
-        </div>
       </Link>
       {/* NavLinks */}
       <div className="hidden md:flex flex-row gap-[60px] items-center  ">
@@ -53,7 +45,7 @@ function Navbar() {
         </button>
       </div>
       {/* mobile hamburger */}
-      <img src={hamburger} alt="" className="md:hidden"/>
+      <img src={hamburger} alt="" className="md:hidden" />
     </div>
   );
 }
